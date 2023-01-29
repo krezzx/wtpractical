@@ -1,6 +1,7 @@
 body{
     background-image: linear-gradient(to bottom, white,lightblue);
     background-repeat: no-repeat;
+    background-size:cover;
     
 
 }
