@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html">HOME</a>
+        <a href="reg.html">REGISTER</a>
+        <a href="login.html">LOGIN</a>
+        <a href="order.html">ORDER</a>
+        <a href="profile.html">PROFILE</a>
+        <a href="catalogue.html">CATALOGUE</a>
+
+    </div>
+    <hr>
+    <br>
+    <div style="text-align: center;">
+        <form action="payment.html">
+            <fieldset style="text-align: left;">
+                <legend>ORDER</legend>
+                <label for="docname">Enter Document name</label>
+                <input type="text" name="docname" id="docname" placeholder="Enter document name"><br><br>
+                <label for="quantity">Quantity</label>
+                <input type="text" name="quantity" id="quantity" placeholder="Enter quantity"><br><br>
+                <label for="docname">Enter Document </label>
+                <input type="text" name="add" id="add" placeholder="Enter address"><br><br>
+                <p>Please Select mode of payment</p>
+                <input type="radio" name="pay" id="Card" value="card">
+                <label for="Card">Card</label>
+                <input type="radio" name="pay" id="UPI" value="upi">
+                <label for="UPI">UPI</label>
+                <input type="radio" name="pay" id="cod" value="cod">
+                <label for="cod">COD</label>
+                <br>
+                <br>
+                <input type="submit" value="Place Order">
+
+
+                
+            </fieldset>
+        </form>
+</body>
+</html>
