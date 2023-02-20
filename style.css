@@ -69,6 +69,11 @@ body{
         font-size: 36px;
         line-height: 50px;
     }
+    h3{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    
     .topnav{
         /* overflow: hidden; */
         background-color: #333;
